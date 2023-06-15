@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+header {
+    background-color: #0B7009;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    height: 85px;
+    
+}
+
+#logo_if {
+   /* width: 220px;
+    height: 82px;
+    margin-left: 1.5%;*/
+    width: 60px;
+    height: 63px;
+    margin-top: 0.7%;
+    margin-left: 5%;
+}
+#nome {
+    display: flex;
+    margin-top: 0.7%;
+    
+    
+}
+
+#ifsp {
+    font-size: 10px;
+    text-align: left;
+    font-family: 'Open Sans';
+    width: 80px;
+    margin-top: 0.4%;
+    margin-left: 8%;
+}
+
+#pesquisa {
+    border-radius: 5px;
+    margin-top: 18%;
+    padding-right: 9px;
+    width: 180px;
+    height: 24px;
+    border: hidden;
+    outline: 0px;
+    padding-left: 10px;
+}
+
+
+
+
+form {
+margin-right: 1%;
+}
+
+::placeholder {
+    font-size: 15px;
+}
+
+h1 {
+    width: 200px;
+}
+
+
+
