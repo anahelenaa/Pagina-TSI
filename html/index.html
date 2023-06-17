@@ -24,7 +24,42 @@
             </div>
         </form>
     </header>
-    <p>Tecnologia em sistemas para interrnet</p>
+    <div id="cab2">
+        <button onclick="openNav()" id="bot"><img src="../imagens/menu.png" alt=""></button>
+    </div>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="../html/sobretsi.html">Sobre TSI</a>
+        <a href="../html/nde.html">NDE</a>
+        <a href="../html/colegiado.html">Colegiado</a>
+        <a href="../html/cpa.html">CPA</a>
+        <a href="../html/gestao.html">Gestão do Curso</a>
+        <a href="../html/horario.html">Horário das Turmas</a>
+        <a href="../html/regulamento.html">Regulamento e Normas</a>
+        <a href="../html/outrasinfo.html">Outras Informações</a>
+      </div>
+      <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+
+        <div class="corpo">
+            <h1>Tecnologia em Sistemas para Internet</h1>
+            <div>
+                <img src="../imagens/campus.jpg" alt="">
+                <img src="../imagens/tsi.jpeg" alt="">
+            
+            </div>
+        </div>
+           
+        <footer>
+            <p>INSTITUTO FEDERAL DE EDUCAÇÃO CIÊNCIA E TECNOLOGIA DE SÃO PAULO - CÂMPUS BIRIGUI - Rua Pedro Cavalo, Nº 709 - Residencial Portal da Pérola II - Birigui-SP - CEP:16201-407 - Fone:(18)3643-1160</p>
+        </footer>
     
 </body>
 </html>
