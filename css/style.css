@@ -20,9 +20,6 @@ header {
 }
 
 #logo_if {
-   /* width: 220px;
-    height: 82px;
-    margin-left: 1.5%;*/
     width: 60px;
     height: 63px;
     margin-top: 0.7%;
@@ -58,7 +55,9 @@ header form .form-busca::placeholder{
 }
 
 header .input-icons i{
-    position: fixed;
+    position: relative;
+    margin-left: 58%;
+    
 
 }
 header .input-icons {
@@ -177,6 +176,14 @@ div button img {
   footer {
     background-color: #0B7009;
     height: 50px;
-    
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    font-family:'Open Sans' ;
+    margin-top: 2%;
+  } 
+
+  footer p {
+    padding-top: 1.5%;
   }
 
