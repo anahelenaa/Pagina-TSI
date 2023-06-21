@@ -20,9 +20,6 @@ header {
 }
 
 #logo_if {
-   /* width: 220px;
-    height: 82px;
-    margin-left: 1.5%;*/
     width: 60px;
     height: 63px;
     margin-top: 0.7%;
@@ -58,7 +55,9 @@ header form .form-busca::placeholder{
 }
 
 header .input-icons i{
-    position: fixed;
+    position: relative;
+    margin-left: 58%;
+    
 
 }
 header .input-icons {
@@ -153,9 +152,6 @@ div button img {
     height: 550px;
     margin-top: 3%;
     margin-left: 5%;
-    
-    
-   
     text-align: center;
   }
 
@@ -174,9 +170,67 @@ div button img {
     padding-left: 0.2%;
   }
 
+  .corpo2 {
+    background-color: #EFEFEF;
+    width: 90%;
+    height: 860px;
+    margin-top: 3%;
+    margin-left: 5%;
+    box-shadow: 5px 5px 3px #b4b4b4;
+    shadow
+
+  }
+  .corpo2 h1 {
+    color: #0B7009;
+    width: 100%;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
+  .corpo2 p {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-top: 1%;
+    font-size: 20px;
+  }
+
+  #div_a {
+    padding-left: 1.5rem;
+    font-size: 20px;
+    padding-right: 1.5rem;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  #div_a a{
+     margin-top: 1%;
+  }
+  
+
+  .parag_dif {
+    color: #0B7009;
+    font-weight: 600;
+  }
+
+  .corpo2 a {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-top: 1rem;
+    font-size: 19px;
+  }
+
   footer {
     background-color: #0B7009;
     height: 50px;
-    
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    font-family:'Open Sans' ;
+    margin-top: 2%;
+  } 
+
+  footer p {
+    padding-top: 1.5%;
   }
 
