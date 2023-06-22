@@ -177,7 +177,6 @@ div button img {
     margin-top: 3%;
     margin-left: 5%;
     box-shadow: 5px 5px 3px #b4b4b4;
-    shadow
 
   }
   .corpo2 h1 {
@@ -241,8 +240,6 @@ div button img {
     margin-top: 3%;
     margin-left: 5%;
     box-shadow: 5px 5px 3px #b4b4b4;
-    shadow
-
   }
   .corpo3 h1 {
     color: #0B7009;
@@ -250,12 +247,36 @@ div button img {
     padding-top: 1.5rem;
     padding-left: 1.5rem;
   }
-  .footer1{
+  .footer3{
     background-color: #0B7009;
     height: 50px;
     color: #ffffff;
     text-align: center;
     font-size: 12px;
-    font-family:'Open Sans' ;
-    margin-top: 17.5%;
+    font-family:'Open Sans';
+    margin-top: 32.5%;
   }
+  .corpo4 {
+    background-color: #EFEFEF;
+    width: 90%;
+    height: 860px;
+    margin-top: 3%;
+    margin-left: 5%;
+    box-shadow: 5px 5px 3px #b4b4b4;
+
+  }
+  .corpo4 h1 {
+    color: #0B7009;
+    width: 100%;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
+  .corpo4 p {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-top: 1%;
+    font-size: 18px;
+  }
+
+  
