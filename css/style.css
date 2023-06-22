@@ -288,4 +288,49 @@ div button img {
     font-size: 18px;
   }
 
+
+  .corpo5 {
+    background-color: #EFEFEF;
+    width: 90%;
+    height: 1000px;
+    margin-top: 3%;
+    margin-left: 5%;
+    box-shadow: 5px 5px 3px #b4b4b4;
+
+  }
+  .corpo5 h1 {
+    color: #0B7009;
+    width: 100%;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  .corpo5 p {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-top: 1%;
+    font-size: 18px;
+  }
+  .tabela{
+    background: #fff;
+  
+  }
+  .tabela_link{
+    text-decoration: none;
+    padding-left: 1.5rem;
+    font-size: 20px;
+    padding-right: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  #titulo{
+    background: #1a9c18;
+    color: white;
+    margin-left: 5px;
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: center;
+  }
+ 
   
