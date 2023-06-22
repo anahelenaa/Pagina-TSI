@@ -219,6 +219,15 @@ div button img {
     margin-top: 1rem;
     font-size: 19px;
   }
+  .footer_index {
+    background-color: #0B7009;
+    height: 50px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    font-family:'Open Sans' ;
+    margin-top: 13%;
+  } 
 
   footer {
     background-color: #0B7009;
