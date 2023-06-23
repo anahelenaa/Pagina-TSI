@@ -153,6 +153,7 @@ div button img {
     margin-top: 3%;
     margin-left: 5%;
     text-align: center;
+    box-shadow: 5px 5px 3px #b4b4b4;
   }
 
   .corpo h1 {
@@ -192,6 +193,55 @@ div button img {
     margin-top: 1%;
     font-size: 20px;
   }
+  
+  .lista {
+    padding-left: 3rem;
+    padding-right: 1.5rem;
+    margin-top: 1%;
+    font-size: 20px;
+    list-style-type: none;
+    }
+
+  #td1, p, a{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+  }
+
+  .tabela1 {
+    
+    border-collapse: collapse;
+    margin-top: 6%;
+    margin-left: 20%;
+    margin-right: 30px;
+    height: 400px;
+    width: 900px;
+    text-align: center;
+  }
+
+  #div_tab {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tabela1, th, td {
+    border: 1px solid;
+  }
+
+  .tabela1 td {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+
+  }
+
+  .tabela1 th {
+    background-color: #1a9c18;
+    border: 1px solid #000000;
+    color: #ffffff; 
+    font-weight: 300;
+  }
+
+  
 
   #div_a {
     padding-left: 1.5rem;
@@ -338,5 +388,21 @@ div button img {
     font-weight: bold;
     text-align: center;
   }
+
+.corpo7 {
+  background-color: #EFEFEF;
+  width: 90%;
+  height: 700px;
+  margin-top: 3%;
+  margin-left: 5%;
+  box-shadow: 5px 5px 3px #b4b4b4;
+}
+
+.corpo7 h1 {
+  color: #0B7009;
+  width: 100%;
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
+}
  
   
